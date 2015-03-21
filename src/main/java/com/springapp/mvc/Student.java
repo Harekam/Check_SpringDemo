@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Student {
     private String studentName;
-    @Size(min = 2, max = 20, message = "Please enter a value for Student's hobby field between {min} and {max} characters!")
+    @Size(min = 2, max = 20)
     private String studentHobby;
     private Long studentMobile;
     private Date studentDOB;
